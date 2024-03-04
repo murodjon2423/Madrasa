@@ -1,0 +1,203 @@
+/* Avvalgi CSS kodlari qoldirilgan */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #299;
+  display: flex;
+  align-items: center; /* Elementlarni vertikal ravishda o'rtada joylashtirish */
+  justify-content: space-between; /* Menyu barni o'rtaga surib berish */
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: #555;
+}
+
+.search-box {
+  margin-left: auto; /* Qidiruv qutisini o'rtada joylashtirish */
+}
+
+.search-box input[type="text"] {
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.search-box button {
+  padding: 8px 20px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background-color: #45a049;
+}
+
+.inscription {
+  font-size: 3em;
+  color: rgb(10, 9, 9);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+img {
+  max-width: 50%;
+  height: auto; /* Tasvirning proporsiyalarini saqlash */
+}
+
+.horizontal-bar {
+  width: 100%;
+  height: 3px; /* Adjust height as needed */
+  background-color: #0e0c0c; /* Change color as needed */
+  margin: 60px 0; /* Adjust spacing as needed */
+}
+.footer__area {
+  background-color: #299; /* Set background color for footer area */
+}
+
+.footer__top {
+  padding: 20px 0; /* Add padding to the top of footer content */
+}
+
+.container {
+  width: 100%; /* Set container width to 100% */
+  margin: 0 auto; /* Center the container */
+}
+
+.row {
+  display: flex; /* Use flexbox for row layout */
+  flex-wrap: wrap; /* Allow row items to wrap */
+}
+
+.pt-20 {
+  padding-top: 20px; /* Add padding to the top of the row */
+}
+
+.cont-4,
+.cont-3 {
+  flex: 1; /* Make columns flexible */
+  margin-right: 1px; /* Add margin to right of columns */
+}
+
+.footer__widget {
+  margin-bottom: 50px; /* Add margin to bottom of footer widgets */
+}
+
+.footer__widget-head {
+  margin-bottom: 22px; /* Add margin to bottom of widget header */
+}
+
+.footer__widget-body {
+  padding-left: 15px; /* Add padding to left of widget body */
+  padding-right: 15px; /* Add padding to right of widget body */
+}
+
+.footer_text {
+  font-size: 14px; /* Set font size for footer text */
+}
+
+.footer__social ul {
+  padding-left: 0; /* Remove default padding from social media list */
+}
+
+.footer__social ul li {
+  display: inline-block; /* Display social media icons inline */
+  margin-right: 10px; /* Add margin to right of social media icons */
+}
+
+.footer__social ul li:last-child {
+  margin-right: 0; /* Remove margin from last social media icon */
+}
+
+.footer__link ul {
+  padding-left: 0; /* Remove default padding from link list */
+}
+
+.footer__link ul li {
+  list-style: none; /* Remove default list style from link list items */
+  margin-bottom: 10px; /* Add margin to bottom of link list items */
+}
+
+.footer__link ul li a {
+  color: #333; /* Set color for links */
+}
+
+.footer__link ul li a:hover {
+  text-decoration: underline; /* Add underline on hover for links */
+}
+
+.xarita {
+  width: 100%; /* Set width of map iframe to 100% */
+  height: 400px; /* Set height of map iframe */
+  border: 0; /* Remove border from map iframe */
+}
+.loo2  {
+  display: block; /* or inline-block, depending on the tag */
+  margin: auto;
+  width: 50%; /* Adjust width as needed */
+  text-align: center; /* If the content inside needs to be centered horizontally */
+}
+
+.container {
+  text-align: center; /* Matnni markazga joylash */
+}
+
+.inscription {
+  font-family: Arial, sans-serif; /* Matn uchun font tanlash */
+  color: rgb(18, 20, 20); /* Matn rangi */
+  background-color: white;
+}
+
+.islomni_fanda_tutgan {
+  margin-top: 20px; /* Yuqori bo'shligi */
+}
+
+.islomni_fanda_tutgan p {
+  font-family: Times New Roman, serif; /* Matn uchun font tanlash */
+  font-size: 18px; /* Matn o'lchami */
+  line-height: 1.6; /* Qator oralig'i */
+  text-align: justify; /* Matnni butunlay chizib olish */
+}
+.oo1 {
+  text-align: justify; /* Matnni justifikatsiya qilish */
+  max-width: 600px; /* Maksimal o'lchamni belgilash */
+  margin: 0 auto; /* Markazga joylash */
+  padding: 20px; /* Matn va sarlavhani orqaga joylash */
+  border: 3px solid #111010; /* Chegarani belgilash va chegaralarni belgilash */
+  border-radius: 10px; /* Chegaralarni yuvarlash */
+  background-color: #9ce724; /* Fon rangi */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Matnni orqaga ushlab turish */
+}
+.content {
+  background-color: #4CAF50;
+  text-align: center;
+
+
+}
